@@ -23,22 +23,24 @@ A hybrid recommendation engine that combines **user-based** and **item-based col
 ---
 
 
+
+---
+
 ## 🚀 How to Run the Project
 
-1.  **Clone the repository**
-```bash
-git clone https://github.com/Betulzagga/hybrid-movie-recommender.git
-cd hybrid-movie-recommender
-2. **Place your data into the following directory: **
-datasets
-- /movie_lens_dataset/
-- movie.csv
--rating.csv
+1. **Clone the repository**
 
-3. Run the script
-python hybrid_recommender.py
-
-🧪 Sample Output
+   ```bash
+   git clone https://github.com/Betulzagga/hybrid-movie-recommender.git
+   cd hybrid-movie-recommender
+2. **Place your data into the following directory**
+   datasets/
+└── movie_lens_dataset/
+    ├── movie.csv
+    └── rating.csv
+3. **Run the script**
+ python hybrid_recommender.py
+4. **🧪 Sample Output**
 
 🎯 User-Based Recommendations:
  - The Usual Suspects
@@ -50,12 +52,7 @@ python hybrid_recommender.py
  - Fight Club
  - Reservoir Dogs
 
-👩‍💻 About the Author
-Betül Zagga
-Data enthusiast passionate about recommender systems, AI, and digital personalization.
-📧 betulzagga@gmail.com
-🔗 LinkedIn: [Add your profile here]
+**📬 Contributions**
 
-✨ Feel free to fork this project, explore the code, and contribute!
-
-
+Feel free to fork this project, open issues, or submit pull requests!
+Your feedback and collaboration are welcome.
